@@ -1,0 +1,64 @@
+body {
+    background-color: orange;
+    font-family: Arial, "Times New Roman", serif;
+}
+/* Sets background color for all pages on website */
+
+#home-title {
+    text-align: center;
+}
+
+.recipe-list li,
+a {
+    text-align: center;
+    list-style: none;
+    background-color: aqua;
+    padding: 10px; 
+    /* spaces lines apart */
+}
+
+.card p {
+    margin: 0px;
+}
+
+div.card {
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card .poutine-card {
+    background-color: yellow;
+}
+
+.card .lasagna-card {
+    background-color: rgb(250, 131, 84);
+}
+
+.card .macaroon-card {
+    background-color: brown;
+}
+
+div ul,
+div ol {
+    display: inline-block;
+    text-align: left;
+}
+/* centers lists in recipe pages */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 0px;
+}
+/* Removes top margin so background-color can fill entire card */
