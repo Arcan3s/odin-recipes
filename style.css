@@ -8,8 +8,7 @@ body {
     text-align: center;
 }
 
-.recipe-list li,
-a {
+ul.recipe-list, .recipe-list li {
     text-align: center;
     list-style: none;
     background-color: aqua;
