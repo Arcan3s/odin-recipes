@@ -6,15 +6,33 @@ body {
 
 #home-title {
     text-align: center;
+    color: rgb(97, 56, 245);
 }
 
-ul.recipe-list, .recipe-list li {
+.recipe-list, .recipe-links li {
     text-align: center;
     list-style: none;
     background-color: aqua;
-    padding: 10px; 
+    padding: 20px 0;
     /* spaces lines apart */
 }
+
+.recipe-list {
+    max-width: 400px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: red;
+}
+
+.recipe-links a, .recipe-links img {
+    display: block;
+    margin: 0 auto;
+}
+
+.recipe-links img {
+    margin-top: 10px;
+}
+
 
 .card p {
     margin: 0px;
@@ -24,8 +42,8 @@ div.card {
     border-style: solid;
     border-color: red;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    width: 800px;
 }
 
 .card .poutine-card {
