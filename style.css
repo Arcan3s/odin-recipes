@@ -5,8 +5,17 @@ body {
 /* Sets background color for all pages on website */
 
 #home-title {
-    text-align: center;
     color: rgb(97, 56, 245);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    width: 400px;
+    margin: 0 auto 20px auto;
+}
+
+.favorites-title {
+    text-align: center;
+    color: rgb(41, 196, 41);
 }
 
 .recipe-list, .recipe-links li {
@@ -20,13 +29,15 @@ body {
 .recipe-list {
     max-width: 400px;
     margin: 0 auto;
-    border-style: solid;
+    border-style: outset;
     border-color: red;
 }
 
 .recipe-links a, .recipe-links img {
     display: block;
     margin: 0 auto;
+    text-decoration: none;
+    /* removes underline from links */
 }
 
 .recipe-links img {
